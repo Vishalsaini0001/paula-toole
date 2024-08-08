@@ -1,4 +1,4 @@
-import './App.css';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import PRStrategy from './pages/PRStrategy';
 
@@ -8,6 +8,7 @@ function App() {
     <>
     <Navbar/>
     <PRStrategy/>
+    <Footer/>
     
     </>
   );
