@@ -1,9 +1,9 @@
-import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-    <h1>Welcome.</h1>
+    <Footer/>
     </>
   );
 }
