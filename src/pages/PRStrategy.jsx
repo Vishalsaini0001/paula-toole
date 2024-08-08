@@ -2,7 +2,7 @@ import pr from "../assets/images/pr.png";
 
 const PRStrategy = () => {
   return (
-    <div className="bg-[#F9E0DB] w-full h-screen p-8 md:p-16">
+    <div className="bg-[#F9E0DB] w-full h-auto p-8 md:p-16">
       <div className="mb-10">
         <span className="text-xl md:text-2xl lg:text-3xl border border-black p-1">
           PR Strategy
