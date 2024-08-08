@@ -1,12 +1,16 @@
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import MediaRelations from './components/MediaRelations';
+import Navbar from './components/Navbar';
+import PRStrategy from './pages/PRStrategy';
+
+
 function App() {
   return (
     <>
     <Navbar/>
-    <MediaRelations/>
+    
+    <PRStrategy/>
     <Footer/>
+    
     </>
   );
 }
