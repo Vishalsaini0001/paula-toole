@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="">
+    <nav className="cursor-pointer">
       <div className="flex justify-between items-center h-16 px-4 md:px-8 text-gray-600 bg-[#F9E0DB]">
         <div className="flex items-center text-center gap-1 flex-col lg:flex-row border-none lg:border border-black p-1">
           <div className="bg-pink-300 tracking-wider text-sm md:text-base font-semibold ">Paula Toole</div>
