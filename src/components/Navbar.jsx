@@ -60,7 +60,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className={`flex lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
+      <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <ul className="flex flex-col gap-2 p-4 text-base bg-[#F9E0DB] ">
           <li className="hover:text-gray-800 transition-colors hover:tracking-wider"><span className='border-b border-white'>PR Strategy</span></li>
           <li className="hover:text-gray-800 transition-colors hover:tracking-wider"><span className='border-b border-white'>Media Relation</span></li>
