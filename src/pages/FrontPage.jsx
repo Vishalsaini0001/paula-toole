@@ -1,4 +1,4 @@
-import React from "react";
+import frontimg from '../assets/images/frontimg.jpg'
 
 const FrontPage = () => {
   return (
@@ -30,6 +30,7 @@ const FrontPage = () => {
           What I do
         </span>
       </div>
+      <img className='w-72 mt-8' src={frontimg} alt="" />
     </div>
   );
 };
