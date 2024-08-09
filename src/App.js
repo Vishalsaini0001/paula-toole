@@ -1,16 +1,15 @@
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-/* import PRStrategy from './pages/PRStrategy'; */
-import MediaRelations from './components/MediaRelations';
+import FrontPage from './pages/FrontPage';
+import PRStrategy from './pages/PRStrategy';
 
 
 function App() {
   return (
     <>
     <Navbar/>
-    
-   {/*  <PRStrategy/> */}
-   <MediaRelations/>
+    <FrontPage/>
+    <PRStrategy/>
     <Footer/>
     
     </>
