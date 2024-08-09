@@ -61,7 +61,7 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-        <ul className="flex flex-col gap-2 p-4 text-xs bg-[#F9E0DB]">
+        <ul className="flex flex-col gap-2 p-4 text-base bg-[#F9E0DB]">
           <li className="hover:text-gray-800 transition-colors ">PR Strategy</li>
           <li className="hover:text-gray-800 transition-colors">Media Relations</li>
           <li className="hover:text-gray-800 transition-colors">Copywriting</li>

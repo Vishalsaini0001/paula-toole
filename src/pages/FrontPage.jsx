@@ -2,8 +2,8 @@ import React from "react";
 
 const FrontPage = () => {
   return (
-    <div className="h-auto p-6 md:p-10 bg-[#F9E0DB]">
-      <div className="text-3xl md:text-5xl">
+    <div className="h-screen p-6 md:p-10 bg-[#F9E0DB]">
+      <div className="text-3xl md:text-5xl mt-28">
         <span className="tracking-wider font-serif font-bold border border-black block md:inline">
           BUILDING BRAND
         </span>{" "}
@@ -12,7 +12,7 @@ const FrontPage = () => {
           REPUTATIONS
         </span>{" "}
         with <br className="hidden md:block" />
-        <span className="tracking-wider font-serif font-bold border border-black block md:inline">
+        <span className="tracking-wider font-serif font-bold border  md:inline">
           TARGETED
         </span>{" "}
         and{" "}
