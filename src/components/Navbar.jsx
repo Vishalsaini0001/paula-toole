@@ -11,8 +11,8 @@ const Navbar = () => {
     <nav className="cursor-pointer">
       <div className="flex justify-between items-center h-16 px-4 md:px-8 text-gray-600 bg-[#F9E0DB]">
         <div className="flex items-center text-center gap-1 flex-col lg:flex-row border-none lg:border border-black p-1">
-          <div className="bg-pink-300 tracking-wider text-sm md:text-base font-semibold ">Paula Toole</div>
-          <div className="text-xs md:text-base font-mono ">PR consultancy & copywriting.</div>
+          <div className="bg-pink-300 tracking-wider text-xl md:text-base font-semibold ">Paula Toole</div>
+          <div className="text-base md:text-base font-mono ">PR consultancy & copywriting.</div>
         </div>
 
         {/* Hamburger icon */}
@@ -61,12 +61,12 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-        <ul className="flex flex-col gap-2 p-4 text-base bg-[#F9E0DB]">
-          <li className="hover:text-gray-800 transition-colors ">PR Strategy</li>
-          <li className="hover:text-gray-800 transition-colors">Media Relations</li>
-          <li className="hover:text-gray-800 transition-colors">Copywriting</li>
-          <li className="hover:text-gray-800 transition-colors">About me</li>
-          <li className="hover:text-gray-800 transition-colors">Contact</li>
+        <ul className="flex flex-col gap-2 p-4 text-base bg-[#F9E0DB] ">
+          <li className="hover:text-gray-800 transition-colors hover:tracking-wider"><span className='border-b border-white'>PR Strategy</span></li>
+          <li className="hover:text-gray-800 transition-colors hover:tracking-wider"><span className='border-b border-white'>Media Relation</span></li>
+          <li className="hover:text-gray-800 transition-colors hover:tracking-wider"><span className='border-b border-white'>Copywriting</span></li>
+          <li className="hover:text-gray-800 transition-colors hover:tracking-wider"><span className='border-b border-white'>About me</span></li>
+          <li className="hover:text-gray-800 transition-colors hover:tracking-wider"><span className='border-b border-white'>Contact</span></li>
         </ul>
       </div>
     </nav>
