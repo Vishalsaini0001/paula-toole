@@ -4,7 +4,9 @@ const PRStrategy = () => {
   return (
     <div className="bg-[#F9E0DB] w-full h-auto p-8 md:p-16">
       <div className="mb-10">
-       
+      <span className="text-xl md:text-2xl lg:text-3xl border border-black p-1">
+          PR Strategy
+        </span>
       </div>
       <div className="text-3xl md:text-4xl lg:text-5xl">
         <h1 className="tracking-wider">
